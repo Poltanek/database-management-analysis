@@ -104,8 +104,17 @@ This SQL script creates a table to manage course sessions, linking them to emplo
 ![image(5)](https://github.com/user-attachments/assets/a07b137b-39a3-4d33-8c95-f28d0058ea1c)
 ![image(6)](https://github.com/user-attachments/assets/a691b190-7355-4e8e-9fcf-34aa4e278879)
 
+ALTERED EMPLOYEES TABLE
+```
+ALTER TABLE EMPLOYEES
+ADD CONSTRAINT SESSION_ID
+FOREIGN KEY (SESSION_ID) REFERENCES COURSE_SESSION (SESSION_ID);
+```
+This SQL statement modifies the employees table by adding a foreign key constraint named SESSION_ID. It ensures that the SESSION_ID column in the COURSE_SESSION table, maintaining data integrity by enforcing that every SESSION_ID in the employees table must correspond towards an existing SESSION_ID within the COURSE_SESSION Table. *Shown in Figure 7*
+
 ### Figure 7
 ![image(7)](https://github.com/user-attachments/assets/6a6be1f3-5308-4d3a-ae11-ee51be3ad66a)
+
 
 ![image(9)](https://github.com/user-attachments/assets/7436edb6-08e3-4970-9ed2-329e57913f05)
 ![image(4)](https://github.com/user-attachments/assets/718ecb0d-4b2d-46ae-af29-46ddd22b27e1)
