@@ -1,4 +1,4 @@
-# Database 
+# Database Analysis & Design
 
 To design, implement, test and demonstrate elements of relational database applications – as well as provide evidence for data analysis
 
@@ -63,16 +63,16 @@ In summary, this query retrieves department-related information along with the t
 ![image(2)](https://github.com/user-attachments/assets/c8278127-17f4-47c6-ab5b-a663a9d78d29)
 
 
-
-ERD design effectively captures the structure needed to manage the training courses, the departments that offer them 
-
-
+ERD design effectively captures the structure needed to manage the training courses, the departments that offer them, the scheduling of course sessions and the employees attending these sessions. It ensures that the relationships between entities are clearly defined, facilitating efficient data management and retrieval. Shown in Figure. Shown in Figure 4.
 
 
 ### Figure 4
 ![image(8)](https://github.com/user-attachments/assets/d504e519-33ef-4ebf-af30-da2cc5e4f936)
 
 
+
+
+### Figure 5
 ![image(3)](https://github.com/user-attachments/assets/e730e1c0-b896-4a5c-be48-977bccc47bb9)
 
 
