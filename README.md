@@ -6,7 +6,7 @@ To design, implement, test and demonstrate elements of relational database appli
 - Must have Oracle APEX
 - Download the Schema File
 
-## Screenshots
+## Analysis
 A list of annual salary of each employee who does not earn commission, in surname alphabetical order:
 
 ```
