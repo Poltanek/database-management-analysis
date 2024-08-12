@@ -69,16 +69,41 @@ ERD design effectively captures the structure needed to manage the training cour
 ### Figure 4
 ![image(8)](https://github.com/user-attachments/assets/d504e519-33ef-4ebf-af30-da2cc5e4f936)
 
-
-
+```
+TRAINING_COURSE_TABLE 
+CREATE TABLE Training_Course (
+  COURSE_ID NUMBER PRIMARY KEY,
+  COURSE_NAME VARCHAR2(255),
+  DURATION VARCHAR2(50),
+  DEPARTMENT_ID NUMBER,
+  CONSTRAINT DEPARTMENT_ID FOREIGN KEY (DEPARTMENT_ID) REFERENCES DEPARTMENTS(DEPARTMENT_ID)
+);
+```
+Creates a table for storing information about training course which includes to add name, description, durations and the departments associated with them. It ensures data integrity by establishing a foreign key constraint between the "Training_Course" table and the "DEPARTMENTS" table. *Figure 5 shows the table creation of Training Course.
 
 ### Figure 5
 ![image(3)](https://github.com/user-attachments/assets/e730e1c0-b896-4a5c-be48-977bccc47bb9)
 
+COURSE__SESSION TABLE
+```
+CREATE TABLE CourseSession (
+  SESSION_ID INT PRIMARY KEY,
+  START_DATE DATE,
+  END_DATE DATE,
+  EMPLOYEE_ID INT,
+  COURSE_ID INT,
+  FOREIGN KEY (EMPLOYEE_ID) REFERENCES Employees(Employee_ID),
+  FOREIGN KEY (COURSE_ID) REFERENCES TRAINING_COURSE(COURSE_ID)
+);
+ALTER TABLE COURSESESSION RENAME TO COURSE_SESSION;
+```
 
+This SQL script creates a table to manage course sessions, linking them to employees, training courses and then renames the table to follow a naming a convention. *Figure 6 shows the table creation of Course Sessions*
+
+### Figure 6
 ![image(5)](https://github.com/user-attachments/assets/a07b137b-39a3-4d33-8c95-f28d0058ea1c)
 
-
+### Figure 7
 ![image(6)](https://github.com/user-attachments/assets/a691b190-7355-4e8e-9fcf-34aa4e278879)
 
 
