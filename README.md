@@ -30,6 +30,10 @@ FROM
   DEPARTMENTS D
 JOIN
   LOCATIONS L ON D.LOCATION_ID = C.COUNTRY_ID
+JOIN
+  REGIONS R ON C.REGION_ID = R.REGION_ID
+ORDER BY
+L.CITY;
 
 ```
 This query retrieves department-related information along with the corresponding city, country, region details and sorts the results based on city names.
@@ -37,6 +41,8 @@ This query retrieves department-related information along with the corresponding
 
 ### Figure 2
 ![image(1)](https://github.com/user-attachments/assets/84b7f3b6-cbcd-47e9-8655-e65123416529)
+
+
 
 ### Figure 3
 ![image(2)](https://github.com/user-attachments/assets/c8278127-17f4-47c6-ab5b-a663a9d78d29)
