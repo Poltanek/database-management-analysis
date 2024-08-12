@@ -1,3 +1,3 @@
 # Database-Analysis-Portfolio
-In my database analysis and design practice I dedicated towars transforming raw data into structured, efficient and scalable databases that support organizations needs.
 
+To design, implement, test and demonstrate elements of relational database applications – as well as provide evidence for data analysis
