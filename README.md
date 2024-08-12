@@ -42,10 +42,32 @@ This query retrieves department-related information along with the corresponding
 ### Figure 2
 ![image(1)](https://github.com/user-attachments/assets/84b7f3b6-cbcd-47e9-8655-e65123416529)
 
-
+The Total number of employees in each department and their average salary - the department name should be included 
+```
+SELECT
+  D.DEPARTMENT_NAME,
+  COUNT(E.EMPLOYEE_ID) AS TOTAL_EMPLOYEES.
+  AVG(E.SALARY) AS AVERAGE_SALARY
+FROM
+  DEPARTMENTS.D
+LEFT JOIN
+  EMPLOYEES E ON D.DEPARTMENT_ID = E.DEPARTMENT_ID
+GROUP BY
+  D.DEPARTMENT_NAME
+ORDER BY
+  D.DEPARTMENT_NAME;
+```
+In summary, this query retrieves department-related information along with the total number of employees and the average salary for each department, ensuring that all departments are included within the result set as well as it order the result set by department name. Shown in Figure 3.
 
 ### Figure 3
 ![image(2)](https://github.com/user-attachments/assets/c8278127-17f4-47c6-ab5b-a663a9d78d29)
+
+
+
+ERD design effectively captures the structure needed to manage the training courses, the departments that offer them 
+
+
+
 
 ### Figure 4
 ![image(8)](https://github.com/user-attachments/assets/d504e519-33ef-4ebf-af30-da2cc5e4f936)
