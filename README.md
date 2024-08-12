@@ -36,3 +36,5 @@ Simply put this query retrieves the last names and salaries of employees who don
 
 ## Contributions!
 
+Contributions are welcome! 
+Please fork this repo and submit a pull request with your improvements!
