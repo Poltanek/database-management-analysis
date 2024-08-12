@@ -5,10 +5,9 @@ To design, implement, test and demonstrate elements of relational database appli
 ## Installation
 
 ## Screenshots
-```awdasd ```
+``` SELECT LAST_NAME, SALARY ```
+``` FROM EMPLOYEES ```
 ![image](https://github.com/user-attachments/assets/57a50a05-d486-4e67-929c-5ef0c0b9150e)
-```awdasd ```
-
 
 
 
