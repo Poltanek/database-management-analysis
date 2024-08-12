@@ -21,9 +21,20 @@ Simply put this query retrieves the last names and salaries of employees who don
 ### Figure 1
 ![image](https://github.com/user-attachments/assets/57a50a05-d486-4e67-929c-5ef0c0b9150e)
 
+A list of departments, corresponding city, country and region names - in city name order
 
+```
+SELECT DEPARTMENT_NAME,CITY,COUNTRY_NAME,REGION_NAME
+FROM
+  DEPARTMENTS D
+JOIN
+  LOCATIONS L ON D.LOCATION_ID = C.COUNTRY_ID
+
+```
 
 ![image(1)](https://github.com/user-attachments/assets/84b7f3b6-cbcd-47e9-8655-e65123416529)
+
+
 ![image(2)](https://github.com/user-attachments/assets/c8278127-17f4-47c6-ab5b-a663a9d78d29)
 ![image(3)](https://github.com/user-attachments/assets/e730e1c0-b896-4a5c-be48-977bccc47bb9)
 ![image(5)](https://github.com/user-attachments/assets/a07b137b-39a3-4d33-8c95-f28d0058ea1c)
