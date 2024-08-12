@@ -5,9 +5,6 @@ To design, implement, test and demonstrate elements of relational database appli
 ## Installation
 
 ## Screenshots
-
-
-![image](https://github.com/user-attachments/assets/57a50a05-d486-4e67-929c-5ef0c0b9150e)
 A list of annual salary of each employee who does not earn commission, in surname alphabetical order:
 
 ```
@@ -18,6 +15,9 @@ ORDER BY LAST_NAME;
 
 ```
 Simply put this query retrieves the last names and salaries of employees who don't have a commission percentage specified and it arranges them alphabetically by last name.
+
+# Figure 1
+![image](https://github.com/user-attachments/assets/57a50a05-d486-4e67-929c-5ef0c0b9150e)
 
 
 
