@@ -1,4 +1,4 @@
-# Database Management & Data Analysis
+# Database Management & Database Analysis
 
 To design, implement, test and demonstrate elements of relational database applications – as well as provide evidence for data analysis
 
