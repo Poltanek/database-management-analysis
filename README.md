@@ -2,9 +2,17 @@
 
 To design, implement, test and demonstrate elements of relational database applications – as well as provide evidence for data analysis
 
+## Objective
+- Implement and Test 'SELECT' SQL queries using the Oracle APEX SQL tool to retrieve information from a database to meet business analysis requirements.
+- Using logical relational database design with appropriate software tools and apply SQL to create database tables with integrity constraints.
+- Apply the APEX Application Builder to develop and test a web-based application, including report pages and form pages as well as a suitable home page providing the navigation.
+- As well as to learn, reflect and evaluate through demonstrating engagement.
+
 ## Installation
-- Must have Oracle APEX
+- Must have Oracle APEX Application 
 - Download the SQL_Schema.sql
+
+  (Will eventually publish URL Soon)
 
 ## Analysis
 A list of annual salary of each employee who does not earn commission, in surname alphabetical order:
