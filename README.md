@@ -14,7 +14,7 @@ To design, implement, test and demonstrate elements of relational database appli
 
   (Will eventually publish URL Soon)
 
-## Analysis
+## Code 
 A list of annual salary of each employee who does not earn commission, in surname alphabetical order:
 
 ```
