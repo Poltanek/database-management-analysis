@@ -1,6 +1,6 @@
 # Database Management & Database Analysis
 
-To design, implement, test and demonstrate elements of relational database applications – as well as provide evidence for data analysis
+To design, implement, test and demonstrate elements of relational database applications – as well as provide evidence for database analysis
 
 ## Objective
 - Implement and Test 'SELECT' SQL queries using the Oracle APEX SQL tool to retrieve information from a database to meet business analysis requirements.
