@@ -127,6 +127,7 @@ This SQL statement modifies the employees table by adding a foreign key constrai
 ![image(9)](https://github.com/user-attachments/assets/7436edb6-08e3-4970-9ed2-329e57913f05)
 ![image(4)](https://github.com/user-attachments/assets/718ecb0d-4b2d-46ae-af29-46ddd22b27e1)
 
+![1708010771702](https://github.com/user-attachments/assets/8279db44-b44e-4261-8961-c21f4f65f8e6)
 
 ## Contributions!
 
