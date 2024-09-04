@@ -14,6 +14,10 @@ To design, implement, test and demonstrate elements of relational database appli
 
   (Will eventually publish URL Soon)
 
+## Outline of Content
+
+This repository covers the essential concepts and practices of Database Management and Structured Query Language (SQL), divided into three key blocks. **Block 1** introduces foundational topics including the database environment, RDBMS, Entity Relationship Diagrams (ERDs), and SQL basics, progressing to advanced retrieval operations and practical SQL programming. **Block 2** focuses on designing and implementing databases with integrity, including data modeling, logical design, normalization, and database administration, with hands-on exercises in table creation, data manipulation, and constraint management. **Block 3** explores the development and deployment of database applications, delving into big data technologies, data analytics, and practical experience using the Oracle APEX Application Builder. This structured approach equips learners with the skills needed for effective database management and application development.
+
 ## Code 
 A list of annual salary of each employee who does not earn commission, in surname alphabetical order:
 
