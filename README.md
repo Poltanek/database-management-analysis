@@ -21,7 +21,7 @@ This repository covers the essential concepts and practices of Database Manageme
 - **Block 2** focuses on designing and implementing databases with integrity, including data modeling, logical design, normalization, and database administration, with hands-on exercises in table creation, data manipulation, and constraint management. 
 - **Block 3** explores the development and deployment of database applications, delving into big data technologies, data analytics, and practical experience using the Oracle APEX Application Builder. This structured approach equips learners with the skills needed for effective database management and application development.
 
-## Code 
+## SQL
 A list of annual salary of each employee who does not earn commission, in surname alphabetical order:
 
 ```
