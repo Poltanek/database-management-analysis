@@ -1,4 +1,4 @@
-# Database Analysis of Employees and Departments
+# Database Design & Analysis of Employees and Departments
 
 To design, implement, test and demonstrate elements of relational database applications – as well as provide evidence for database analysis
 
